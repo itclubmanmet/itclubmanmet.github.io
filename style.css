@@ -7,7 +7,7 @@ body {
   margin-bottom: 100px;
 }
 
-.maincontent {
+.bannerindex {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(./img/divbackground.jpeg);
   background-size: cover;
   background-position: center;
@@ -25,6 +25,7 @@ body {
   padding-left: 10%;
   margin-right: 10%;
 }
+
 
 /*
 Yoinked from W3School
@@ -75,7 +76,7 @@ ul#repo li a {
 
 footer#footer {
   padding: 0;
-  width: 100%;
+  width: 80%;
   background-color: #2b2b2b;
   overflow: hidden;
   position: fixed;
@@ -83,7 +84,7 @@ footer#footer {
   left: 0;
   bottom: 0;
   padding-left: 10%;
-  margin-right: 10%;
+  padding-right: 10%;
   font-family: "Red Hat Display", serif;
   color:#0c5ba9;
 }

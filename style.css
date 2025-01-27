@@ -6,7 +6,7 @@ body {
   position: relative;
   margin-bottom: 100px;
 }
-
+/*stuff*/
 .bannerindex {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(./img/divbackground.jpeg);
   background-size: cover;

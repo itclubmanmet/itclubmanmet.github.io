@@ -1,20 +1,40 @@
 body {
     background-color: #424242;
+    margin: 0;
 }
 
 #content {
-  margin-left: 10%;
+  /* margin-left: 10%; */
   margin-right: 10%;
   font-family: "Red Hat Display", serif;
   color: #ffffff;
 }
+
+.maincontent {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(./img/divbackground.jpeg);
+  background-size: 50%;
+
+  width: 80%;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+}
+
+.repository {
+  width: 80%;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-right: 10%;
+}
+
 /*
 Yoinked from W3School
 */
 
 ul.topnav {
   list-style-type: none;
-  margin: 0px 0px 10px;
+  margin: 0px 0px 0px;
   padding: 0;
   overflow: hidden;
   background-color: #333;
@@ -33,7 +53,7 @@ ul.topnav li a {
   
 ul.topnav li a:hover:not(.active) {background-color: #2b2b2b;}
   
-ul.topnav li a.active {background-color: #a93b0c;}
+ul.topnav li a.active {background-color: #0c5ba9;}
   
 ul.topnav li.logo {float: right;}
   
@@ -41,9 +61,7 @@ ul.topnav li.logo {float: right;}
   ul.topnav li.right  , 
   ul.topnav li {float: none;}
 }
-  
-
-
+ 
 ul#repo{
   list-style-type: none;
   padding: 0;
@@ -69,7 +87,7 @@ footer#footer {
   padding-left: 10%;
   margin-right: 10%;
   font-family: "Red Hat Display", serif;
-  color: #a93b0c;;;
+  color:#0c5ba9;
 }
 
 footer#footer a {

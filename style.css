@@ -36,12 +36,16 @@ body {
 
 .newbox{
   width: 80%;
-  font-weight: bold;
   padding-right: 10%;
   padding-top: 2rem;
   padding-left: 10%;
   list-style-type: none;
   line-height: 1.8
+}
+
+.newbox li {
+  padding-bottom: 1.5rem;
+  width:90%;
 }
 .newbox a {
   color: white;

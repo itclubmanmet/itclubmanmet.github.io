@@ -25,22 +25,7 @@ body {
   padding-right: 10%;
   padding-left: 10%;
   margin-right: 10%;
-<<<<<<< HEAD
   padding-bottom: 7rem;
-}
-img {
-  width: 80vw; height: auto; border-radius: 2%
-}
-.newbox{
-  width: 80%;
-  position: top;
-  padding-right: 10%;
-  padding-left: 10%;
-  padding-bottom: 7rem;
-}
-
-=======
-  padding-bottom: 10px;
 }
 
 .newbox{
@@ -55,7 +40,6 @@ img {
   color: white;
   text-decoration: none;
 }
->>>>>>> ce7327f (first commit)
 
 /*
 Yoinked from W3School
@@ -105,15 +89,10 @@ ul#repo li a {
 }
 
 footer#footer {
-<<<<<<< HEAD
-  height: 7rem;
-  overflow: hidden;
-  position: bottom;
-=======
   padding: 0;
   overflow: hidden;
   position: fixed;
->>>>>>> ce7327f (first commit)
+  height: 7rem;
   bottom: 0;
   left: 0;
   width: 80%;

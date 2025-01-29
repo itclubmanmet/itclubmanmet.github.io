@@ -28,11 +28,12 @@ body {
   padding-bottom: 7rem;
 }
 
-img {
+.regulardiv img {
   width: 80vw; 
   height: auto; 
   border-radius: 2%
 }
+
 .newbox{
   width: 80%;
   font-weight: bold;
@@ -46,7 +47,11 @@ img {
   color: white;
   text-decoration: none;
 }
-
+.newbox img {
+    width: 80vw; 
+    height: auto; 
+    border-radius: 2%
+}
 /*
 Yoinked from W3School
 */

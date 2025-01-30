@@ -34,6 +34,16 @@ body {
   border-radius: 2%
 }
 
+.regulardiv video {
+  width: 80vw; 
+  height: auto; 
+  border-radius: 2%
+}
+.regulardiv iframe {
+  width: 80vw; 
+  height: auto; 
+  border-radius: 2%
+}
 .newbox{
   width: 80%;
   padding-right: 10%;

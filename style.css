@@ -31,31 +31,39 @@ body {
 .regulardiv img {
   width: 80vw; 
   height: auto; 
-  border-radius: 2%
+  border-radius: 0.75rem
 }
 
 .regulardiv video {
   width: 80vw; 
   height: auto; 
-  border-radius: 2%
+  border-radius: 0.75rem
 }
 .regulardiv iframe {
   width: 80vw; 
   height: auto; 
-  border-radius: 2%
+  border-radius: 0.75rem
 }
 .newbox{
   width: 80%;
   padding-right: 10%;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   padding-left: 10%;
   list-style-type: none;
   line-height: 1.8
 }
 
-.newbox li {
-  padding-bottom: 1.5rem;
-  width:90%;
+.news {
+  width: 78vw;
+  background-color: #2b2b2b;
+  padding: 2%;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.newbox{
+  padding-bottom: 10rem;
+  width: 80vw;
 }
 .newbox a {
   color: white;

@@ -33,6 +33,13 @@ body {
   border-radius: 0.75rem
 }
 
+code {
+  background-color: #353535;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
 .newbox{
   width: 80vw;
   padding-right: 10vw;

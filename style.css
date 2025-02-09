@@ -33,7 +33,7 @@ body {
   border-radius: 0.75rem
 }
 
-code {
+.codediv {
   background-color: #353535;
   color: white;
   padding: 0.5rem;

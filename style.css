@@ -37,6 +37,7 @@ body {
   background-color: #353535;
   color: white;
   padding: 0.5rem;
+  width: inherit;
   border-radius: 0.5rem;
 }
 
@@ -89,7 +90,7 @@ This is for screens larger than the min-width
     padding-bottom: 7rem;
   } */
 
-  .regulardiv img, video{
+  .regulardiv img, video, .codediv {
     width: 50vw; 
     height: auto; 
     border-radius: 0.75rem

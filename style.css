@@ -20,20 +20,23 @@ body {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
-.regulardiv {
+#center, img, video, iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 80vw;
-  padding-left: 10vw;
-  margin-right: 10vw;
+}
+
+.regulardiv {
   padding-bottom: 7rem;
 }
 
 .regulardiv img, video, iframe {
-  width: 80vw; 
   height: auto; 
   border-radius: 0.75rem
 }
 
-.codediv {
+code {
   background-color: #353535;
   color: white;
   padding: 0.5rem;
@@ -42,34 +45,33 @@ body {
 }
 
 .newbox{
-  width: 80vw;
-  padding-right: 10vw;
-  padding-top: 1.5rem;
-  padding-left: 10vw;
+  padding-top: 1rem;
   list-style-type: none;
   line-height: 1.8;
   padding-bottom: 10rem;
-  width: 80vw;
 }
 
 .newbox a {
   color: white;
+  display: block;
+  height: 100%;
+  width: 100%;
   text-decoration: none;
 }
+
 .newbox img {
-    width: 80vw; 
-    height: auto; 
-    border-radius: 2%
+  width: 80vw; 
+  height: auto; 
+  border-radius: 2%
 }
 
 .news {
-  width: 78vw;
+  width: 80vw;
   background-color: #2b2b2b;
   padding: 2%;
   margin-bottom: 1rem;
   border-radius: 0.5rem;
 }
-
 
 /*
 This is for screens larger than the min-width
@@ -146,15 +148,10 @@ ul#repo li a {
 }
 
 footer#footer {
-  padding: 0;
-  overflow: hidden;
-  position: fixed;
+  position: absolute;
   height: 7rem;
-  bottom: 0;
-  left: 0;
   width: 80%;
   background-color: #2b2b2b;
-  position: absolute;
   padding-left: 10%;
   padding-right: 10%;
   font-family: "Red Hat Display", serif;

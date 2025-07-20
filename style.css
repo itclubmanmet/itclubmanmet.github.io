@@ -6,6 +6,147 @@ body {
   position: relative;
   min-height: 100vh;
 }
+
+.toc {
+  background-color: #2c2c2c;
+  padding: 1rem;
+  margin: 1rem 0;
+  max-width: max-content;
+  padding-right: 1rem;
+  border-radius: 0.5rem;
+  border-left: 4px solid #3279c0;
+  font-size: medium;
+}
+
+.toc ul {
+  list-style-type: none;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.toc a {
+  color: #739fcb;
+}
+
+.toc a:hover {
+  color: #2d93ff;
+}
+
+.toc-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #b8b8b8;
+}
+
+.admonition.danger {
+  background-color: #3f1818;
+  border-left: 4px solid #cc0000;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.admonition.danger p {
+  margin: 0;
+  color: #ff9999;
+}
+
+.admonition.note {
+  background-color: #1a2634;
+  border-left: 4px solid #0050a7;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.admonition.note p {
+  margin: 0;
+  color: #739fcb;
+}
+
+p.admonition-title {
+  font-weight: bold;
+}
+
+.admonition.warning {
+  background-color: #382d19;
+  border-left: 4px solid #cc7700;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.admonition.warning p {
+  margin: 0;
+  color: #ffb366;
+}
+
+img, video, iframe {
+  height: auto; 
+  border-radius: 0.75rem;
+  width: 100%;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+code {
+  background-color: #3a3a3a;
+}
+
+div.codehilite, pre.codehilite {
+  background-color: #3a3a3a;
+  padding-left: 1rem;
+  max-width: 80vw;
+  line-height: 2;
+  height: auto;
+  padding-top: 0.75rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.5rem;
+  overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #3a3a3a;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+blockquote {
+  background-color: #3a3a3a;
+  padding: 0.25rem 1rem;
+  margin: 0.25rem 0;
+  border-left: 4px solid #739fcb;
+  border-radius: 0.5rem;
+  color: #b8b8b8;
+  font-style: italic;
+}
+table {
+  width: 80vw;
+  margin: auto;
+  border-collapse: collapse;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+}
+
+td, th {
+  border: 1px solid white;
+  padding: 8px;
+}
+
 /*stuff*/
 .bannerindex {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)), url(./img/divbackground.jpeg);
@@ -20,7 +161,7 @@ body {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
-#center, img, video, iframe {
+#center {
   display: block;
   margin-left: auto;
   margin-right: auto;
